@@ -1,0 +1,156 @@
+
+body {
+    background-image: url(/images/markus-spiske-hvSr_CVecVI-unsplash.jpg); 
+    background-color:  #0a0a0a;
+    background-size: cover;
+    margin: 5%;
+    padding: 0;
+
+}
+
+header { 
+    display: flex; 
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 992px;
+    }
+
+
+header .perfil { 
+    margin: 20px;
+}
+
+header .perfil img {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+header .sobre {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.sobre h1 {
+    font-size: 32px;
+    
+}
+
+.sobre p  {
+    font-size: 22px;
+    line-height: 10px;
+}
+.nome h1 {
+    font-size: 54px;
+    line-height: 16px;
+    color:yellow; 
+}
+
+
+}
+
+main {
+    width: 992px;
+    margin: 40px auto;
+    display: flex; 
+    justify-content: center;
+}
+.container {
+    width: 992px;
+    margin: 40px auto;
+    display: flex; 
+    justify-content: center;
+
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 5px;
+        width: 500px;
+        height: 300px;
+        flex-direction: row;
+    }
+
+ 
+    .bio {
+        color: antiquewhite;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-feature-settings: unset;
+        text-align: justify;   
+        line-height: 25px;
+        width: 600px;
+
+     }
+ 
+     .card2 {
+        margin: auto;
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+        flex-direction: row;
+    }
+
+    .socialmedia {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        align-items: left;
+        font-family: 'Montserrat', sans-serif;
+        color: blanchedalmond;
+        list-style-type:none;
+        margin: 20px 0;
+        margin-left: 35px;
+        padding: 0;
+        justify-content: space-between;
+        width: 200px;
+    }
+
+    .socialmedia li {
+        flex-grow: 1;
+        margin-bottom: 6px;
+       
+        }
+
+    .socialmedia li a {
+        border-radius: 5px;
+        padding: 7.5px;
+        border: 2.5px solid blanchedalmond;
+        display: block;
+        margin-right: 30px;
+        color:blanchedalmond;
+        text-decoration: black;
+        
+   
+    }
+
+ 
+    footer { 
+        display:flex;
+        justify-content: center;      
+    }
+
+    footer span {
+        font-size: 14px;
+        color: #eeeeee;
+        font-family: monospace;
+        justify-content: center;
+       
+      }
+      
+      footer img {
+      width: 15px;
+      height: 15px;
+      margin-left: 5px;
+      }
